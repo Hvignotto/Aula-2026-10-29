@@ -22,7 +22,7 @@ int main() {
     printf("Nome: %s\n", nome);
     printf("Idade: %d\n", idade);
     printf("Salario: R$ %.2f\n", salario);
-    printf("DIgite seu Genero: %c[0]\n");
+    printf("Genero: %c\n");
 
     return 0;
 }
