@@ -16,13 +16,13 @@ int main() {
     scanf("%lf", &salario); // Lê um número double
 
     printf("Digite seu gênero ");
-    scanf("%c[0], &Genero\n");
+    scanf(" %c", &Genero);
     
     printf("DADOS DIGITADOS:\n");
     printf("Nome: %s\n", nome);
     printf("Idade: %d\n", idade);
     printf("Salario: R$ %.2f\n", salario);
-    printf("Genero: %c\n");
+    printf("Genero: %c\n", Genero);
 
     return 0;
 }
